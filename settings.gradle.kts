@@ -30,3 +30,6 @@ include(":backend:databases")
 findProject(":backend:databases")?.name = "databases"
 include(":backend:BServer")
 findProject(":backend:BServer")?.name = "BServer"
+include(":client")
+include(":client:requests")
+findProject(":client:requests")?.name = "requests"
