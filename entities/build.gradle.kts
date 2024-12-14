@@ -10,8 +10,8 @@ plugins {
     `maven-publish`
 }
 
-group = "gc.libs"
-version = "0.1"
+group = "gc"
+version = "0.0.0"
 
 
 kotlin {
@@ -50,7 +50,7 @@ kotlin {
 }
 
 android {
-    namespace = "gc.libs"
+    namespace = "gc"
     compileSdk = libs.versions.android.compileSDK.get().toInt()
     defaultConfig {
         minSdk = libs.versions.android.minimumSDK.get().toInt()
